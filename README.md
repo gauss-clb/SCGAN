@@ -81,6 +81,8 @@ On MNIST and Fashion-MNIST, we find categorical conditional variables capture cl
 
 ### Gaussian Parzen Window
 
+We use gaussian parzen window to estimate log-likelihood on 10000 synthetic images for each model.
+
 ```
 python gaussian_parzen_window.py --data_dir DATA_DIR/mnist --gen_data_path result/cgan_mnist/cgan_mnist.npy --file result/cgan_mnist/cgan_mnist.txt
 python gaussian_parzen_window.py --data_dir DATA_DIR/mnist --gen_data_path result/scgan_mnist/scgan_mnist.npy --file result/scgan_mnist/scgan_mnist.txt
@@ -112,7 +114,7 @@ Gaussian Parzen window-based log-likelihood estimates for MNIST and Fashion-MNIS
             <td align="left">320.2 &plusmn; 2</td>
         </tr>
         <tr>
-            <th align="left">SCGAN</th>
+            <td align="left">SCGAN</td>
             <th align="left">233.6 &plusmn; 2.2</th>
             <th align="left">321.7 &plusmn; 2</th>
         </tr>
