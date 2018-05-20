@@ -82,7 +82,6 @@ On MNIST and Fashion-MNIST, we find categorical conditional variables capture cl
 ### Gaussian Parzen Window
 
 We use gaussian parzen window to estimate log-likelihood on 10000 synthetic images for each model.
-
 ```
 python gaussian_parzen_window.py --data_dir DATA_DIR/mnist --gen_data_path result/cgan_mnist/cgan_mnist.npy --file result/cgan_mnist/cgan_mnist.txt
 python gaussian_parzen_window.py --data_dir DATA_DIR/mnist --gen_data_path result/scgan_mnist/scgan_mnist.npy --file result/scgan_mnist/scgan_mnist.txt
@@ -176,10 +175,13 @@ python scgan_celeba.py --data_dir=DATA_DIR
 ### Test on CelebA
 
 ```
-python scgan_celeba.py --train=False --data_dir=DATA_DIR
+python scgan_celeba.py --train=False --data_dir=DATA_DIR --con_dim=0
+python scgan_celeba.py --train=False --data_dir=DATA_DIR --con_dim=1
+python scgan_celeba.py --train=False --data_dir=DATA_DIR --con_dim=2
+python scgan_celeba.py --train=False --data_dir=DATA_DIR --con_dim=3
 ```
 
-We select some good-quality synthetic images. Continuous variables capture variation on pose, glasses, hair and sex.
+We select some good-quality synthetic images. Categorical variables capture variation on pose, glasses, hair and sex.
 <div align=center>
     <img src="images/CELEBA.png"/>
 </div>
