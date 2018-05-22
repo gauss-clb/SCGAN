@@ -31,7 +31,7 @@ The `DATA_DIR` is root directory of these datasets, you can set it any path you 
 
 4. Download cifar10 dataset from [CIFAR](http://www.cs.toronto.edu/~kriz/cifar.html), extract `cifar-10-batches-py` from `cifar-10-python.tar.gz`, and put `cifar-10-batches-py` into `DATA_DIR/cifar10`.
 
-5. Download celeba dataset from [baidu](https://pan.baidu.com/s/1Z_6c19mLy2gVKnLYwQJXKw) or `google`, and put `celeba_0, celeba_1, celeba_2, celeba_3`(We have converted it to tfrecords) into `DATA_DIR/celeba`.
+5. Download celeba dataset from [Baidu](https://pan.baidu.com/s/1Z_6c19mLy2gVKnLYwQJXKw) or [Google](https://drive.google.com/drive/folders/1s3QUV2xwPVvRdnwMcAkDw3mDAJlrGHnL?usp=sharing), and put `celeba_0, celeba_1, celeba_2, celeba_3`(We have converted it to tfrecords) into `DATA_DIR/celeba`.
 
 ## MNIST & Fashion-MNIST
 
@@ -190,7 +190,7 @@ We select some good-quality synthetic images. Categorical variables capture vari
 
 ### Note: There is no guarantee that one conditional variable just captures a kind of representation, so that InfoGAN uses ten 10-dimensional categorical variables to capture these representations.
 
-## Citing SCGAN
+## Cite SCGAN
 If you use SCGAN in your research, we would appreciate references to the following paper:
 
 Biblatex entry:
