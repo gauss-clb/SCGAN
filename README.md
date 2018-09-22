@@ -1,6 +1,6 @@
 # SCGAN
 
-Code for reproducing experiments in "SCGAN: Interpretable Representation Learning
+Code for reproducing experiments in "SCGAN: Disentangled Representation Learning
 by Adding Similarity Constraint on Generative
 Adversarial Nets"
 
