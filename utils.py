@@ -2,7 +2,6 @@ import gzip
 import os
 import numpy as np
 import cv2
-import sklearn.datasets
 import random
 import sys
 import scipy.io as sio

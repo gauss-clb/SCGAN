@@ -8,6 +8,7 @@ Adversarial Nets"
 
 * Python
 * Numpy
+* Scipy
 * Matplotlib
 * Tensorflow >= 1.5
 
