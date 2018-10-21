@@ -197,16 +197,11 @@ If you use SCGAN in your research, we would appreciate references to the followi
 Biblatex entry:
 
 ```
-@ARTICLE{8476290, 
-author={X. Li and L. Chen and L. Wang and P. Wu and W. Tong}, 
-journal={IEEE Access}, 
-title={SCGAN: Disentangled Representation Learning by Adding Similarity Constraint on Generative Adversarial Nets}, 
-year={2018}, 
-volume={}, 
-number={}, 
-pages={1-1}, 
-keywords={Generative Adversarial Nets;Representation Learning;Unsupervised Learning}, 
-doi={10.1109/ACCESS.2018.2872695}, 
-ISSN={2169-3536}, 
-month={},}
+@article{li2018scgan,
+  title={SCGAN: Disentangled Representation Learning by Adding Similarity Constraint on Generative Adversarial Nets},
+  author={Li, Xiaoqiang and Chen, Liangbo and Wang, Lu and Wu, Pin and Tong, Weiqin},
+  journal={IEEE Access},
+  year={2018},
+  publisher={IEEE}
+}
 ```
