@@ -201,6 +201,8 @@ Biblatex entry:
   title={SCGAN: Disentangled Representation Learning by Adding Similarity Constraint on Generative Adversarial Nets},
   author={Li, Xiaoqiang and Chen, Liangbo and Wang, Lu and Wu, Pin and Tong, Weiqin},
   journal={IEEE Access},
+  volume={7},
+  pages={147928--147938},
   year={2018},
   publisher={IEEE}
 }
